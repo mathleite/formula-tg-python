@@ -1,15 +1,11 @@
 from abc import ABC, abstractmethod
 
 
-class AbstractCarEntity(ABC):
-    @abstractmethod
-    def color(self) -> str:
-        pass
-
+class AbstractRaceCar(ABC):
     @abstractmethod
     def position(self) -> str:
         pass
 
     @abstractmethod
-    def brand(self) -> str:
+    def type(self) -> str:
         pass
