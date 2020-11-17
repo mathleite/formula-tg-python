@@ -21,3 +21,7 @@ class SportiveCar(AbstractRaceCar):
     @type.setter
     def type(self, value) -> None:
         self._type = value
+
+    @staticmethod
+    def make():
+        return SportiveCar()

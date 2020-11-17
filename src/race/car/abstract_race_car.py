@@ -9,3 +9,8 @@ class AbstractRaceCar(ABC):
     @abstractmethod
     def type(self) -> str:
         pass
+
+    @staticmethod
+    @abstractmethod
+    def make():
+        pass
