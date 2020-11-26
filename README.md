@@ -1,4 +1,10 @@
-# Formula-TG ~Python
+<h1 align="center">Formula-TG ~Python</h1>
+
+<p align="center">
+    <a href="https://github.com/mathleite/formula-tg-python">
+        <img src="https://github.com/mathleite/formula-tg-python/workflows/C.I/badge.svg" alt="Workflow badge">
+    </a>
+</p>
 
 ### Setup
 1. ```docker
