@@ -1,9 +1,11 @@
+from typing import Optional
+
 from abc import ABC, abstractmethod
 
 
 class AbstractRaceCar(ABC):
     @abstractmethod
-    def position(self) -> str:
+    def position(self) -> Optional[str]:
         pass
 
     @abstractmethod
@@ -14,3 +16,6 @@ class AbstractRaceCar(ABC):
     @abstractmethod
     def make():
         pass
+
+    def __str__(self):
+        return f'Type: {self.type}, Position: {self.position}'

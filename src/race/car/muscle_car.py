@@ -1,13 +1,15 @@
+from typing import Optional
+
 from src.race.car.abstract_race_car import AbstractRaceCar
 
 
 class MuscleCar(AbstractRaceCar):
     def __init__(self) -> None:
-        self._position = ''
-        self._type = ''
+        self._position = None
+        self._type = 'muscle'
 
     @property
-    def position(self) -> str:
+    def position(self) -> Optional[str]:
         return self._position
 
     @position.setter
