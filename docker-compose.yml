@@ -12,6 +12,8 @@ services:
     working_dir: /var/www/html/
     tty: true
     container_name: app
+    env_file:
+      - .env
 
 networks:
   backend:

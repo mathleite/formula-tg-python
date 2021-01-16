@@ -1,2 +1,5 @@
 unittest-data-provider==1.0.1
 mypy
+peewee==3.14.0
+click~=7.1.2
+typing~=3.7.4.3
